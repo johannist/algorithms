@@ -9,7 +9,7 @@ which leads to [1,2,3,1,2,3]
 import collections
 
 
-# Time complexity O(n^2)
+# Time complexity O(n)
 def delete_nth_naive(array, n):
     ans = []
     for num in array:
